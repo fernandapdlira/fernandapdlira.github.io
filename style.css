@@ -1,0 +1,16 @@
+body {
+	background-image: url("https://i.pinimg.com/originals/fc/15/89/fc158956845d8a992e748270d2192e03.jpg");
+	align-items: center;
+}
+
+.content {
+	color: black;
+	align-items: center;
+	border: solid 4px black;
+	background-color: white;
+	display: inline-block; 
+	margin-left: 25%; 
+	margin-right: 25%;
+	height: 100px;
+	width: 640px;
+}
