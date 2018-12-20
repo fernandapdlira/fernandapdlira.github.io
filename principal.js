@@ -14,7 +14,6 @@ var mochila;
 var tempoDisparo = 0;
 var botaoDisparo;
 var botaoStart;
-var explosao;
 var musica;
 var pikachu;
 var count_pikachus = 0;
@@ -40,7 +39,6 @@ var jogo = {
 		game.load.image('pikachu', 'img/pikachu.png');
 		game.load.image('flash', 'img/particula.png');
 		game.load.image('sangue', 'img/sangue_ash.png');
-		game.load.spritesheet('explosao', 'img/explosaun.png', 128, 128);
 		game.load.spritesheet('pikachu', 'img/pikachu.png', 64,64);
 		game.load.spritesheet('ash_player', 'img/ash.png', 17, 20);
 		
