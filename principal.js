@@ -61,7 +61,7 @@ var jogo = {
 		player    = game.add.sprite(400, 400, 'ash_player');
 		player.enableBody = true;
 		player.physicsBodyType = Phaser.Physics.ARCADE;
-
+		player.body.collideWorldBounds = true;
 		player.animations.add('andar', [0,1,0,2], 16, true);
 		
 
